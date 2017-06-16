@@ -1,8 +1,7 @@
 /*
- * lcd.h
- *
  * Created: 6/11/2017 7:07:16 PM
- *  Author: dinho
+ * Author: dinho
+ * Library LCD 16x2
  */ 
 
 #ifndef LCD_H_
