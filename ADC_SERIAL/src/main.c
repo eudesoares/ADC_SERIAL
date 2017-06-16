@@ -9,6 +9,11 @@
 //Variáves globais
 uint16_t result=20;
 
+/*Função chamada quando a interrupção ADC acontece. Responsavel por:
+		leitura do ADC
+		Composição do valor lido
+		Escrita na serial
+ */
 void adc_complete_callback(const struct adc_module *const module)
 {
 	adc_read_buffer_job(&adc_instance, adc_result_buffer, 1);
